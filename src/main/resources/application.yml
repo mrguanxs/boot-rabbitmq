@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: boot-rabbitmq
+  rabbitmq:
+    host: 10.211.55.5
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
