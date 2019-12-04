@@ -1,2 +1,9 @@
 # boot-rabbitmq
-spring boot整合rabbitmq
+####spring boot整合rabbitmq
+1. 声明队列和交换机
+    - 在RabbitMqConfig中
+2. 生产者发送消息
+    - 在测试类中
+3. 定义消费者
+    - 在ReceiveHandler中
+    - 注意:要监听的队列必须提前声明,否则会报错
